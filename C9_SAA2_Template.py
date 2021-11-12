@@ -23,7 +23,7 @@ while carryOn:
     # Display scaled background image on screen at location (0, 0)
     screen.blit(bgImg_scaled,(0,0))
     
-    # Store the yellow car image name name with extension in a variable "yellow_car_name"
+    # Store the yellow car image name with extension in a variable "yellow_car_name"
     yellow_car_name = "yellow_car.png"
     # Load the yellow car image and store it in a variable "yellow_car"
     yellow_car = pygame.image.load(yellow_car_name).convert_alpha()
